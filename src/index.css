@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-brand-blue: #0984e3;
+  --color-slate-dark: #2d3436;
+  --color-slate-grey: #636e72;
+  --color-slate-light: #b2bec3;
+  --color-bg-soft: #f1f3f5;
+}
+
+body {
+  background-color: var(--color-bg-soft);
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.editorial-card {
+  @apply bg-white rounded-[40px] shadow-2xl border-[1px] border-gray-100 overflow-hidden transition-all duration-300;
+}
+
+.editorial-button {
+  @apply px-8 py-4 rounded-xl font-medium transition-all duration-200 active:scale-95 border border-gray-200;
+}
+
+.big-number {
+  @apply text-4xl font-serif font-bold text-brand-blue leading-none;
+}
+
+.italic-serif {
+  @apply font-serif italic text-slate-grey;
+}
+
+.label-caps {
+  @apply text-[10px] font-bold tracking-[0.2em] uppercase text-brand-blue;
+}
+

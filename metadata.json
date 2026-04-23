@@ -1,0 +1,6 @@
+{
+  "name": "MedQuiz Assistant",
+  "description": "Assistant interactif de QCM pour étudiants en médecine (Biologie, Anatomie, etc.) alimenté par l'IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
